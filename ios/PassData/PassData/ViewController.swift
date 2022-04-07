@@ -10,6 +10,7 @@
 
 // 1. instance property
 // 2. segue
+// 3. instance
 
 import UIKit
 
@@ -25,10 +26,12 @@ class ViewController: UIViewController {
         
 //        detailVC.someLabel.text = "bb"
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var dataLabel: UILabel!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "segueDetail" {

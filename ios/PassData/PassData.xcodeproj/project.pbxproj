@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE324B9A27C7A0FC009AF642 /* InstanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE324B9827C7A0FC009AF642 /* InstanceDetailViewController.swift */; };
+		AE324B9B27C7A0FC009AF642 /* InstanceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE324B9927C7A0FC009AF642 /* InstanceDetailViewController.xib */; };
 		AEFF9F1127C4BFBA00166887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF9F1027C4BFBA00166887 /* AppDelegate.swift */; };
 		AEFF9F1327C4BFBA00166887 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF9F1227C4BFBA00166887 /* SceneDelegate.swift */; };
 		AEFF9F1527C4BFBA00166887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFF9F1427C4BFBA00166887 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE324B9827C7A0FC009AF642 /* InstanceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceDetailViewController.swift; sourceTree = "<group>"; };
+		AE324B9927C7A0FC009AF642 /* InstanceDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstanceDetailViewController.xib; sourceTree = "<group>"; };
 		AEFF9F0D27C4BFBA00166887 /* PassData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFF9F1027C4BFBA00166887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFF9F1227C4BFBA00166887 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 			children = (
 				AEFF9F1027C4BFBA00166887 /* AppDelegate.swift */,
 				AEFF9F1227C4BFBA00166887 /* SceneDelegate.swift */,
+				AE324B9827C7A0FC009AF642 /* InstanceDetailViewController.swift */,
+				AE324B9927C7A0FC009AF642 /* InstanceDetailViewController.xib */,
 				AEFF9F1427C4BFBA00166887 /* ViewController.swift */,
 				AEFF9F1627C4BFBA00166887 /* Main.storyboard */,
 				AEFF9F1927C4BFBB00166887 /* Assets.xcassets */,
@@ -242,6 +248,7 @@
 			files = (
 				AEFF9F1D27C4BFBB00166887 /* LaunchScreen.storyboard in Resources */,
 				AEFF9F1A27C4BFBB00166887 /* Assets.xcassets in Resources */,
+				AE324B9B27C7A0FC009AF642 /* InstanceDetailViewController.xib in Resources */,
 				AEFF9F1827C4BFBA00166887 /* Main.storyboard in Resources */,
 				AEFF9F4327C4C07F00166887 /* DetailViewController.xib in Resources */,
 			);
@@ -273,6 +280,7 @@
 				AEFF9F4527C5066700166887 /* SegueDetailViewController.swift in Sources */,
 				AEFF9F1327C4BFBA00166887 /* SceneDelegate.swift in Sources */,
 				AEFF9F4227C4C07F00166887 /* DetailViewController.swift in Sources */,
+				AE324B9A27C7A0FC009AF642 /* InstanceDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
